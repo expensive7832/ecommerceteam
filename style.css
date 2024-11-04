@@ -1,0 +1,15 @@
+.small{
+    display: inline;
+}
+
+.smallimg img{
+    max-width: 260px;
+    max-height: 94px;
+    display: inline;
+}
+
+.smallimg{
+    display: flex;
+    max-height: 5rem;
+
+}

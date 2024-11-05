@@ -9,24 +9,115 @@
     <link rel="stylesheet" href="./style.css">
 </head>
 <body class="mt-5">
-    <div class="first container">
-        <div class="col-md-6">
-            <img src="./img/Main Image (1).png" alt="">
-
-            <div class="smallimg ">
-                <img src="./img/05.png" alt="">
-                <img src="./img/01@2x (1).png" alt="">
-                <img src="./img/02.png" alt="">
-                <img src="./img/06.png" alt="">
-                <img src="./img/03.png" alt="">
-                <img src="./img/04.png" alt="">
+    <div class=" first container ">
+        <div class=" row">
+            <div class="col-md-6">
+                <img class="pc" src="./img/Main Image (1).png" alt=""><br><br>
+    
+                <div class="smallimg ">
+                    <img src="./img/05.png" alt="">
+                    <img src="./img/01@2x (1).png" alt="">
+                    <img src="./img/02.png" alt="">
+                    <img src="./img/06.png" alt="">
+                    <img src="./img/03.png" alt="">
+                    <img src="./img/04.png" alt="">
+                    
+                </div>           
+            </div>
+            <div class="col-md-6">
+                <h2><i class="fa-solid fa-star"></i></h2>
+                <h6>2020 Apple MacBook Pro with Apple M1 Chip (13-inch, 8GB RAM, 256GB SSD Storage) - Space Gray</h6>
+                <div class="row mt-4">
+                    <div class="col-md-6"><p>sku: <span><strong>A266344</strong></span></p>
+                        
+                        <p>brand: <span><strong>Apple</strong></span></p>
+                    </div>
+                    <div class="col-md-6">
+                        <p>Availability: <span class="text-success">in stock</span></p>
+                        <p>Category: <span><strong>Electronic Device</strong></span></p>
+                    </div>
+                </div>
+                <div class="price gap-1">
+                    <p><span class="amount text-info"><strong>$1699</strong> </span> <span class=""><s> $1999   </s></span><span class=" percent"> 21% OFF</span></p> 
+                </div>
+                <hr>
                 
-            </div>           
-        </div>
-        <div class="col-md-6">
-            <h2><i class="fa-sharp fa-solid fa-star"></i></h2>
+                    <div class="row">
+                        <div class="col-md-6">
+                            <div class="d-inline">
+                                <div class="form-check form-check-inline">
+                                    <input
+                                        class="form-check-input"
+                                        type="radio"
+                                        name=""
+                                        id=""
+                                        value="{3:option1}"
+                                    />
+                                    <label class="form-check-label" for="">white</label>
+                                </div>
+                                <div class="form-check form-check-inline">
+                                    <input
+                                        class="form-check-input"
+                                        type="radio"
+                                        name=""
+                                        id=""
+                                        value="option2"
+                                    />
+                                    <label class="form-check-label" for="">red</label>
+                                </div>
+                                
+                            </div>
+                            <br><br><br>
+                            <label for="myDropdown">Memory:</label> <br>
+                            <select id="myDropdown">
+                                <option value="option1">16GB unified memory</option> 
+                                <option value="option2">17GB unified memory</option> 
+                                <option value="option3">15GB unified memory</option> 
+                                <option value="option4">18GB unified memory</option> 
+                            </select>
+                        </div>
+                        <div class="col-md-6">
+                        <label for="myDropdown">Size:</label> <br>
+                        <select id="myDropdown">
+                             <option value="option1">14-inch Liquid Retina XDR display</option> 
+                             <option value="option2">14-inch Solid Retina XDR display</option> 
+                             <option value="option3">15-inch Liquid Retina XDR display</option> 
+                             <option value="option4">15-inch Solid Retina XDR display</option> 
+                        </select><br><br>
+
+                        <label for="myDropdown">Storage:</label> <br>
+                        <select id="myDropdown">
+                             <option value="option1">14-inch Liquid Retina XDR display</option> 
+                             <option value="option2">14-inch Solid Retina XDR display</option> 
+                             <option value="option3">15-inch Liquid Retina XDR display</option> 
+                             <option value="option4">15-inch Solid Retina XDR display</option> 
+                        </select>
+                    </div>
+                </div><br>
+                <div class="row">
+                    <div class="col-md-3 body">
+                        <div class="counter">
+                            
+                            <bu class="bb btn " id="decrement bb" onclick="decrement()"><h5>-</h5></bu>
+                            <p id="number" class="mt-2">0</p>
+                            <button class="bb btn" id="increment bb" onclick="increment()"><h5>+</h5></button>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <button class="btn btn-warning the btn-outline-warning ">
+                            <span class="text-dark">ADD TO CART  <i class="fa-solid fa-cart-plus"></i></span>
+                        </button>
+                    </div>
+                    <div class="col-md-3">
+                        <button class="btn btn-outline-warning">
+                            BUY NOW
+                        </button>
+                    </div>
+                </div>
+            </div>
         </div>
     </div>
 </body>
 <script src="./bootstrap.bundle.min.js"></script>
+<script src="./script.js"></script>
 </html>

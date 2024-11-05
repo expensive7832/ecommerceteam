@@ -1,15 +1,46 @@
-.small{
-    display: inline;
+.pc{
+    height: 25rem;
+    width: 35rem;
 }
 
 .smallimg img{
-    max-width: 260px;
-    max-height: 94px;
+    max-width: 230px;
+    max-height: 84px;
     display: inline;
 }
 
 .smallimg{
     display: flex;
     max-height: 5rem;
-
 }
+
+.percent{
+    background-color: orange;
+    border-radius: 0.1rem;
+}
+.amount{
+    font-size: 1.2rem;
+    
+}
+
+#myDropdown{
+    width: 260px;
+    height: 30px;
+    outline-color: aqua;
+}
+
+.the{
+    width: 260px;
+}
+
+.counter{
+    height: 2.8rem;
+    border: 1px solid black;
+    display: flex;
+    justify-content: space-around;
+}
+
+/* .bb{
+    height: 30px;
+    width: 30px;
+} */

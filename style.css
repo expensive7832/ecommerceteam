@@ -48,3 +48,43 @@
 .hr{
     border-left: 1px solid rgb(216, 206, 206);
 }
+
+/* .borde{
+    border-bottom: 1px solid rgb(216, 206, 206);
+    padding: 10px;
+} */
+
+.borders{
+    border: 1px solid rgb(216, 206, 206);
+    padding: 10px;
+}
+
+.borde button{
+    background-color: transparent;
+    outline-color: transparent;
+}
+
+.borde button:hover{
+    border-bottom: 2px solid orangered;
+}
+/* .java img{
+    height: 60px;
+    width: 60px;
+} */
+
+p{
+    font-size: small;
+}
+
+.java{
+    gap: 1rem;
+    border: 1px solid rgb(216, 206, 206);
+    border-radius: 5px;
+    margin: auto;
+    padding: 9px;
+    height: 100px;
+}
+
+div .pp{
+    font-size: 0.8rem;
+}
